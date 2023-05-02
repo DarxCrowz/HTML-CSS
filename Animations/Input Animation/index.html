@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .input-data .underline{
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            bottom: 0;
+        }
+        .input-data .underline::before{
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            background: #4158d0;
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 0.3s ease;
+        }
+
+        .input-data input:focus ~ .underline::before,
+        .input-data input:valid ~ .underline::before{
+            transform: scaleX(1);
+        }
+        .input-data{
+            height: 40px;
+            width: 200px;
+            position: relative;
+        }
+        .input-data input{
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            border-bottom: 2px solid #ccc;
+        }
+        .input-data input:focus ~ label,
+        .input-data input:valid ~ label{
+            transform: translateY(-20px);
+            font-size: 15px;
+            bottom: 15px;
+        }
+        .input-data label{
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            color: #666;
+            transition:  all .3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-data">
+        <input type="text" required>
+        <div class="underline"></div>
+        <label>User Name</label>
+    </div>
+</br>
+</body>
+</html>

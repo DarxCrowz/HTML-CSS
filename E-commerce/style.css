@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    margin-left: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+li{
+   margin-left: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #202124;
+    height: 100vh;
+}
+
+.card{
+ border: 1px solid rgb(74, 74, 74);
+ padding: 30px,40px;
+ border-radius: 5px;
+ margin: 25px,20px;
+ background: #202124;
+}
+
+.card .card-image{
+    width: 280px;
+    height: 220px;
+    justify-content: space-around;
+    
+}
+
+.card .card-body{
+    padding-top: 10px;
+}
+
+.card .card-body .evaluation i{
+    color: orangered;
+    font-size: 12px;
+}
+
+.card .card-body h3{
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.card .card-body ul{
+    margin-top: 20px;
+    position: relative;
+    left: 19px;
+    font-size: 14px;
+}
+
+.card .card-body label{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-body .price label{
+    color: rgb(255, 170, 170);
+    font-size: 19px;
+    position: relative;
+    bottom: 3px;
+}
+
+.card .card-body .price button{
+    background: rgb(148, 8, 8);
+    border: none;
+    outline: none;
+    padding: 8px 13px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(234, 255, 255);
+    margin-right: 5px;
+    transition: all .3s;
+}
+
+.card .card-body .price button:hover {
+background: rgb(255, 84, 84);
+}

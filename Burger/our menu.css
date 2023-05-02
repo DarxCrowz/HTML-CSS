@@ -1,0 +1,235 @@
+/*Source Sans Pro font family link*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+/* Poppins font family link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar design start*/
+.navbar{
+ background-color: darkred;
+ width: 100%;
+ height: 80vh;
+}
+
+nav{
+    padding: 2% 5%;
+    display: flex;
+
+}
+
+nav .logo img{
+    width: 100%;
+}
+
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    color: rgb(202, 197, 197);
+}
+
+.our-menu{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+}/*faded light effect*/
+
+nav .btn-lg{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 12px 43px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+nav .btn-lg:hover{
+    color: darkred;
+}
+
+.text{
+    margin-top: 8em;
+    color: white;
+    text-align: center;
+}
+
+.text h2{
+    font-size: 2em;
+    line-height: 0.1;
+}
+
+.text h1{
+    font-size: 5em;
+}
+
+/*Special Varities*/
+.heading{
+    margin: 5em 0;
+    text-align: center;
+}
+
+.heading h2{
+    color: orange;
+    font-size: 1.5rem;
+    line-height: 0.4;
+}
+
+.heading h1{
+    font-size: 3.8rem;
+}
+
+.heading h1::after{
+    content:"";
+    display: inline-flexbox;
+    width: 20%;
+    padding: 1px;
+    background-color: grey;
+}
+
+.flex-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.variety1{
+    padding: 10px 50px;
+}
+
+.variety1 img:hover{
+   transform: scale(1.25);
+}
+
+.variety1 h1{
+    font-size: 2em;
+}
+
+.variety1 h3{
+    color: red;
+    line-height: 1.3;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.variety1 p{
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.variety1 i{
+    font-size: 4em;
+    padding: 24px 0;
+} 
+
+.variety1 i:hover{
+   color: darkred;
+}
+
+/*Special snacks*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 2em;
+}
+
+.images img{
+    border-radius: 50%;
+    margin-right: 40px;    
+}
+
+.images img:hover{
+    transform: scale(1.1);
+}
+
+.details h3{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.price h2{
+    color: darkred;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+/*Container section*/
+.container2{
+    display: flex;
+    padding-top: 12em;
+    background-color: darkred;
+}
+
+.parts{
+    margin-left: 90px;
+    margin-top: 5em;
+    color: white;
+}
+
+.parts img{
+    width: 10%;
+    padding-bottom: 20px;
+}
+
+.parts h1{
+    font-size: 3rem;
+}
+
+.apps img{
+    width: 40%;
+    padding: 40px 10px;
+}
+
+.screen-image img{
+    width: 100%;
+    margin-left: 80px;
+}
+
+/*footer section*/
+.footer{
+    background-color: darkred;
+    box-shadow: 10px 10px 50px #ccc;
+}
+
+nav h1{
+    color: white;
+    font-size: 1.2em;
+    margin-right: 24em;
+}
+
+.btn-sm{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 10px 30px;
+    margin-left: 10em;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.btn-sm:hover{
+    color: darkred;
+}

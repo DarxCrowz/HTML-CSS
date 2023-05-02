@@ -1,0 +1,289 @@
+/*Source Sans Pro font family link*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+/* Poppins font family link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar design start*/
+.navbar{
+ background-color: darkred;
+ width: 100%;
+ height: 80vh;
+}
+
+nav{
+    padding: 2% 5%;
+    display: flex;
+
+}
+
+nav .logo img{
+    width: 100%;
+}
+
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    color: rgb(202, 197, 197);
+}
+
+.about
+{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+}/*faded light effect*/
+
+nav .btn-lg{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 12px 43px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+nav .btn-lg:hover{
+    color: darkred;
+}
+
+.text{
+    margin-top: 8em;
+    color: white;
+    text-align: center;
+}
+
+.text h2{
+    font-size: 2em;
+    line-height: 0.1;
+}            
+
+.text h1{
+    font-size: 5em;
+}
+
+.header{
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(83, 79, 79, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(https://www.unileverfoodsolutions.com.au/dam/global-ufs/mcos/anz/calcmenu/recipe/killer-recipes-update/beef-burger-with-deep-fried-bacon-and-thousand-island-dressing_main-header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    color: white;
+    text-align: center;
+}
+
+.div::after{
+    content:"";
+    display: inline-flexbox;
+    width: 100%;
+    padding: 4px;
+    background-color: darkred;
+}
+
+.header h1{
+    padding-top: 2em;
+    font-size: 2.6em;
+    line-height: 1.0;
+    padding-bottom: 30px;
+}
+
+.header h4{
+    font-size: 2rem;
+}
+
+.header p{
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.4;
+    padding-top: 2em;
+}
+
+.delivery-info{
+    margin: 5%  8%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ship{
+    padding: 0 20px;
+}
+
+.ship i{
+    border-radius: 50%;
+    background-color: orange;
+    font-size: 1.6em;
+    color: white;
+    padding: 26px 30px;
+}
+
+.ship i:hover{
+    background-color: darkred;
+}
+
+.ship h1{
+    padding: 10px 0;
+}
+
+/*Our Journey section*/
+.heading{
+    padding: 12% 0;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.heading h2{
+    color: orange;
+    font-size: 30px;
+
+}
+
+.heading h1{
+    padding: 10px 0;
+    font-size: 40px;
+    line-height: 1.0;
+    color: black;   
+} 
+
+.flex{
+    display: flex;
+    text-align: left;
+    margin: 0 8em;
+    padding-top: 7%;
+}
+
+.details{
+    margin: 0 40px;
+}
+
+.details h1{
+    padding-bottom: 30px;
+    color: darkred;
+}
+
+/*Our outlets*/
+.head{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba( 255, 215, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), 
+    linear-gradient(rgb(124, 7, 7) 52%, rgb(182,188,198) 60%, rgb(126,17,17) 61%);
+}
+
+.outlets{
+    padding: 0 5px;
+}
+
+.outlets img{
+    border-radius: 10px 
+}
+
+.outlets img:hover{
+    transform:scale(0.9);
+}
+
+.outlets i{
+    padding: 20px 0;
+    color: yellow;
+    font-size: 20px;
+    margin: 0 7em;
+}
+
+.outlets h5{
+    color: black;
+    font-size: 20px;
+    margin: 0 1em;
+}
+
+.outlets h3{
+     color: red;
+    font-size: 20px;
+    margin: 12px 3em;
+}
+
+
+/*Container section*/
+.container2{
+    display: flex;
+    padding-top: 12em;
+    background-color: darkred;
+}
+
+.parts{
+    margin-left: 90px;
+    margin-top: 5em;
+    color: white;
+}
+
+.parts img{
+    width: 10%;
+    padding-bottom: 20px;
+}
+
+.parts h1{
+    font-size: 3rem;
+}
+
+.apps img{
+    width: 40%;
+    padding: 40px 10px;
+}
+
+.screen-image img{
+    width: 100%;
+    margin-left: 80px;
+}
+
+
+/*footer section*/
+.footer{
+    background-color: darkred;
+    box-shadow: 10px 10px 50px #ccc;
+}
+
+nav h1{
+    color: white;
+    font-size: 1.2em;
+    margin-right: 24em;
+}
+
+.btn-sm{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 10px 30px;
+    margin-left: 10em;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.btn-sm:hover{
+    color: darkred;
+}
